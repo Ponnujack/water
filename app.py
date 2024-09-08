@@ -34,7 +34,7 @@ def set_background(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
     return
 
-set_background('/content/drive/MyDrive/KYGWS/bg.png')
+set_background('/water/data/bg.png')
 
 warnings.filterwarnings('ignore')
 
@@ -50,9 +50,9 @@ st.markdown("""
         """, unsafe_allow_html=True)
 
 
-st.image("/content/drive/MyDrive/KYGWS/kygws.png", width=800)
-image1 = Image.open('/content/drive/MyDrive/KYGWS/TNAULogo.png')
-image2 = Image.open('/content/drive/MyDrive/KYGWS/AECRILogo.png')
+st.image("/water/data/kygws.png", width=800)
+image1 = Image.open('/water/data/TNAULogo.png')
+image2 = Image.open('/water/data/AECRILogo.png')
 
 # Add images side by side in the sidebar
 st.markdown(
@@ -94,14 +94,14 @@ if selected == "About":
 
     cols=st.columns(2)
     with cols[0]:
-      st.image("/content/drive/MyDrive/KYGWS/stages_firka.png", use_column_width=True)
+      st.image("/water/data/stages_firka.png", use_column_width=True)
     with cols[1]:
-      st.image("/content/drive/MyDrive/KYGWS/Firka_map.png", use_column_width=True)
+      st.image("/water/data/Firka_map.png", use_column_width=True)
 
 if selected == "Status Check":
     st.title(f"{selected}")
 
-    df = pd.read_csv("/content/drive/MyDrive/KYGWS/firka.csv")
+    df = pd.read_csv("/water/data/firka.csv")
 
     @st.cache_data
     def convert_df(df):
@@ -141,7 +141,7 @@ if selected == "Status Check":
       status=rslt_df.loc[[firka], ['2011']].values[0][0]
       df_status=status
       if status=="Safe":
-        st.image("/content/drive/MyDrive/KYGWS/Safe.png", use_column_width=True)
+        st.image("/water/data/Safe.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -151,7 +151,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status=="Semi-Critical":
-        st.image("/content/drive/MyDrive/KYGWS/Semicritical.png", use_column_width=True)
+        st.image("/water/data/Semicritical.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -161,7 +161,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status=="Critical":
-        st.image("/content/drive/MyDrive/KYGWS/Critical.png", use_column_width=True)
+        st.image("/water/data/Critical.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -171,7 +171,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status=="Over-Exploited":
-        st.image("/content/drive/MyDrive/KYGWS/Overexploited.png", use_column_width=True)
+        st.image("/water/data/Overexploited.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -181,7 +181,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status=="Saline":
-        st.image("/content/drive/MyDrive/KYGWS/Saline.png", use_column_width=True)
+        st.image("/water/data/Saline.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -194,7 +194,7 @@ if selected == "Status Check":
       status1=rslt_df.loc[[firka], ['2013']].values[0][0]
       df_status1=status1
       if status1=="Safe":
-        st.image("/content/drive/MyDrive/KYGWS/Safe.png", use_column_width=True)
+        st.image("/water/data/Safe.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -204,7 +204,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status1=="Semi-Critical":
-        st.image("/content/drive/MyDrive/KYGWS/Semicritical.png", use_column_width=True)
+        st.image("/water/data/Semicritical.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -214,7 +214,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status1=="Critical":
-        st.image("/content/drive/MyDrive/KYGWS/Critical.png", use_column_width=True)
+        st.image("/water/data/Critical.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -224,7 +224,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status1=="Over-Exploited":
-        st.image("/content/drive/MyDrive/KYGWS/Overexploited.png", use_column_width=True)
+        st.image("/water/data/Overexploited.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -234,7 +234,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status1=="Saline":
-        st.image("/content/drive/MyDrive/KYGWS/Saline.png", use_column_width=True)
+        st.image("/water/data/Saline.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -247,7 +247,7 @@ if selected == "Status Check":
       status2=rslt_df.loc[[firka], ['2017']].values[0][0]
       df_status2=status2
       if status2=="Safe":
-        st.image("/content/drive/MyDrive/KYGWS/Safe.png", use_column_width=True)
+        st.image("/water/data/Safe.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -257,7 +257,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status2=="Semi-Critical":
-        st.image("/content/drive/MyDrive/KYGWS/Semicritical.png", use_column_width=True)
+        st.image("/water/data/Semicritical.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -267,7 +267,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status2=="Critical":
-        st.image("/content/drive/MyDrive/KYGWS/Critical.png", use_column_width=True)
+        st.image("/water/data/Critical.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -277,7 +277,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status2=="Over-Exploited":
-        st.image("/content/drive/MyDrive/KYGWS/Overexploited.png", use_column_width=True)
+        st.image("/water/data/Overexploited.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -287,7 +287,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status2=="Saline":
-        st.image("/content/drive/MyDrive/KYGWS/Saline.png", use_column_width=True)
+        st.image("/water/data/Saline.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -300,7 +300,7 @@ if selected == "Status Check":
       status3=rslt_df.loc[[firka], ['2020']].values[0][0]
       df_status3=status3
       if status3=="Safe":
-        st.image("/content/drive/MyDrive/KYGWS/Safe.png", use_column_width=True)
+        st.image("/water/data/Safe.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -310,7 +310,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status3=="Semi-Critical":
-        st.image("/content/drive/MyDrive/KYGWS/Semicritical.png", use_column_width=True)
+        st.image("/water/data/Semicritical.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -320,7 +320,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status3=="Critical":
-        st.image("/content/drive/MyDrive/KYGWS/Critical.png", use_column_width=True)
+        st.image("/water/data/Critical.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -330,7 +330,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status3=="Over-Exploited":
-        st.image("/content/drive/MyDrive/KYGWS/Overexploited.png", use_column_width=True)
+        st.image("/water/data/Overexploited.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -340,7 +340,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status3=="Saline":
-        st.image("/content/drive/MyDrive/KYGWS/Saline.png", use_column_width=True)
+        st.image("/water/data/Saline.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -353,7 +353,7 @@ if selected == "Status Check":
       status4=rslt_df.loc[[firka], ['2022']].values[0][0]
       df_status4=status4
       if status4=="Safe":
-        st.image("/content/drive/MyDrive/KYGWS/Safe.png", use_column_width=True)
+        st.image("/water/data/Safe.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -363,7 +363,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status4=="Semi-Critical":
-        st.image("/content/drive/MyDrive/KYGWS/Semicritical.png", use_column_width=True)
+        st.image("/water/data/Semicritical.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -373,7 +373,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status4=="Critical":
-        st.image("/content/drive/MyDrive/KYGWS/Critical.png", use_column_width=True)
+        st.image("/water/data/Critical.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -383,7 +383,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status4=="Over-Exploited":
-        st.image("/content/drive/MyDrive/KYGWS/Overexploited.png", use_column_width=True)
+        st.image("/water/data/Overexploited.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -393,7 +393,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status4=="Saline":
-        st.image("/content/drive/MyDrive/KYGWS/Saline.png", use_column_width=True)
+        st.image("/water/data/Saline.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -406,7 +406,7 @@ if selected == "Status Check":
       status5=rslt_df.loc[[firka], ['2023']].values[0][0]
       df_status5=status5
       if status5=="Safe":
-        st.image("/content/drive/MyDrive/KYGWS/Safe.png", use_column_width=True)
+        st.image("/water/data/Safe.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -416,7 +416,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status5=="Semi-Critical":
-        st.image("/content/drive/MyDrive/KYGWS/Semicritical.png", use_column_width=True)
+        st.image("/water/data/Semicritical.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -426,7 +426,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status5=="Critical":
-        st.image("/content/drive/MyDrive/KYGWS/Critical.png", use_column_width=True)
+        st.image("/water/data/Critical.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -436,7 +436,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status5=="Over-Exploited":
-        st.image("/content/drive/MyDrive/KYGWS/Overexploited.png", use_column_width=True)
+        st.image("/water/data/Overexploited.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -446,7 +446,7 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
       if status5=="Saline":
-        st.image("/content/drive/MyDrive/KYGWS/Saline.png", use_column_width=True)
+        st.image("/water/data/Saline.png", use_column_width=True)
         st.markdown(
     """
     <div style='text-align: center;'>
@@ -459,7 +459,7 @@ if selected == "Status Check":
 
     matching_values = []
 
-    wb = openpyxl.load_workbook("/content/drive/MyDrive/KYGWS/GWL_masterdata.xlsx")
+    wb = openpyxl.load_workbook("/water/data/GWL_masterdata.xlsx")
     for sheet_name in wb.sheetnames:
       ws = wb[sheet_name]
       for row in ws.iter_rows(min_row=1, max_col=ws.max_column, values_only=True):
@@ -488,7 +488,7 @@ if selected == "Status Check":
 
 if selected == "Glance":
     st.title(f"{selected}")
-    df = pd.read_csv("/content/drive/MyDrive/KYGWS/firka.csv")
+    df = pd.read_csv("/water/data/firka.csv")
 
     @st.cache_data
     def convert_df(df):
@@ -529,7 +529,7 @@ if selected == "KYGWS Developers":
     st.title(f"{selected}")
     col1, col2 = st.columns([5,20])
     with col1:
-      st.image("/content/drive/MyDrive/KYGWS/Er.Ponnu.png")
+      st.image("/water/data/Er.Ponnu.png")
 
     with col2:
       st.markdown('<span style="font-size: 24px;">Er. P.Ponnuchakkammal</span>', unsafe_allow_html=True)
@@ -537,7 +537,7 @@ if selected == "KYGWS Developers":
 
     col1, col2 = st.columns([5,20])
     with col1:
-      st.image("/content/drive/MyDrive/KYGWS/Dr.RA.png")
+      st.image("/water/data/Dr.RA.png")
 
     with col2:
       st.markdown('<span style="font-size: 24px;">Dr. A. Raviraj</span>', unsafe_allow_html=True)
@@ -545,7 +545,7 @@ if selected == "KYGWS Developers":
 
     col1, col2 = st.columns([5,20])
     with col1:
-      st.image("/content/drive/MyDrive/KYGWS/Dr.DS.png")
+      st.image("/water/data/Dr.DS.png")
 
     with col2:
       st.markdown('<span style="font-size: 24px;">Dr. D. Sureshkumar</span>', unsafe_allow_html=True)
@@ -553,7 +553,7 @@ if selected == "KYGWS Developers":
 
     col1, col2 = st.columns([5,20])
     with col1:
-      st.image("/content/drive/MyDrive/KYGWS/Dr.BK.png")
+      st.image("/water/data/Dr.BK.png")
 
     with col2:
       st.markdown('<span style="font-size: 24px;">Dr. Balaji Kannan</span>', unsafe_allow_html=True)
@@ -561,7 +561,7 @@ if selected == "KYGWS Developers":
 
     col1, col2 = st.columns([5,20])
     with col1:
-      st.image("/content/drive/MyDrive/KYGWS/Dr.CSS.png")
+      st.image("/water/data/Dr.CSS.png")
 
     with col2:
       st.markdown('<span style="font-size: 24px;">Dr. C. S. Sumathi</span>', unsafe_allow_html=True)
@@ -569,7 +569,7 @@ if selected == "KYGWS Developers":
 
     col1, col2 = st.columns([5,20])
     with col1:
-      st.image("/content/drive/MyDrive/KYGWS/Dr.KB.png")
+      st.image("/water/data/Dr.KB.png")
 
     with col2:
       st.markdown('<span style="font-size: 24px;">Dr. K. Boomiraj</span>', unsafe_allow_html=True)
