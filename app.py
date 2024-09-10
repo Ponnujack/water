@@ -115,12 +115,13 @@ if selected == "Status Check":
     with cols[0]:
       district = st.selectbox("District", df["District"].unique())
       filtered_df = df[df["District"] == district]
-      division = st.selectbox("Division", filtered_df["Division"].unique())
-      filtered_df1 = df[df["Division"] == division]
+      #division = st.selectbox("Division", filtered_df["Division"].unique())
+      #filtered_df1 = df[df["Division"] == division]
     with cols[1]:
-      taluk = st.selectbox("Taluk", filtered_df1["Taluk"].unique())
-      filtered_df2 = df[df["Taluk"] == taluk]
-      firka = st.selectbox("Firka", filtered_df2["Firka"].unique())
+      firka = st.selectbox("Firka", filtered_df["Firka"].unique())
+      #taluk = st.selectbox("Taluk", filtered_df1["Taluk"].unique())
+      #filtered_df2 = df[df["Taluk"] == taluk]
+      #firka = st.selectbox("Firka", filtered_df2["Firka"].unique())
       #Search for the firka
       rslt_df = df.loc[df['Firka'] == firka]
       rslt_df = rslt_df.set_index('Firka')
