@@ -1,0 +1,235 @@
+S.No,District,Category,2011,2013,2017,2020,2022,2023
+1,Ariyalur,Safe,13,13,14,14,14,11
+2,Ariyalur,Semi-Critical,1,2,1,1,1,3
+3,Ariyalur,Critical,0,0,0,0,0,1
+4,Ariyalur,Over-Exploited,1,0,0,0,0,0
+5,Ariyalur,Saline,0,0,0,0,0,0
+6,Ariyalur,Total Number of Firka ,15,15,15,15,15,15
+7,Chengalpattu,Safe,0,0,0,18,20,20
+8,Chengalpattu,Semi-Critical,0,0,0,17,15,15
+9,Chengalpattu,Critical,0,0,0,2,2,2
+10,Chengalpattu,Over-Exploited,0,0,0,3,3,3
+11,Chengalpattu,Saline,0,0,0,0,0,0
+12,Chengalpattu,Total Number of Firka ,0,0,0,40,40,40
+13,Chennai,Safe,0,0,0,3,1,2
+14,Chennai,Semi-Critical,0,0,0,1,3,3
+15,Chennai,Critical,0,0,0,0,0,0
+16,Chennai,Over-Exploited,20,20,20,26,26,46
+17,Chennai,Saline,0,0,0,0,0,0
+18,Chennai,Total Number of Firka ,20,20,20,30,30,51
+19,Coimbatore,Safe,2,2,1,1,6,4
+20,Coimbatore,Semi-Critical,9,8,6,5,5,7
+21,Coimbatore,Critical,1,2,5,2,4,4
+22,Coimbatore,Over-Exploited,21,21,26,30,23,23
+23,Coimbatore,Saline,0,0,0,0,0,0
+24,Coimbatore,Total Number of Firka ,33,33,38,38,38,38
+25,Cuddalore,Safe,16,18,18,13,11,14
+26,Cuddalore,Semi-Critical,6,5,5,12,11,4
+27,Cuddalore,Critical,3,2,1,1,4,4
+28,Cuddalore,Over-Exploited,7,6,7,6,6,10
+29,Cuddalore,Saline,0,1,1,0,0,0
+30,Cuddalore,Total Number of Firka ,32,32,32,32,32,32
+31,Dharmapuri,Safe,0,0,2,2,3,5
+32,Dharmapuri,Semi-Critical,8,5,2,7,6,4
+33,Dharmapuri,Critical,0,3,4,0,1,1
+34,Dharmapuri,Over-Exploited,14,14,15,14,13,13
+35,Dharmapuri,Saline,0,0,0,0,0,0
+36,Dharmapuri,Total Number of Firka ,22,22,23,23,23,23
+37,Dindigul,Safe,5,5,8,4,6,7
+38,Dindigul,Semi-Critical,12,9,4,5,4,4
+39,Dindigul,Critical,2,5,3,5,3,4
+40,Dindigul,Over-Exploited,21,21,25,26,27,25
+41,Dindigul,Saline,0,0,0,0,0,0
+42,Dindigul,Total Number of Firka ,40,40,40,40,40,40
+43,Erode,Safe,4,6,7,3,10,11
+44,Erode,Semi-Critical,18,11,6,10,11,10
+45,Erode,Critical,1,5,5,1,2,1
+46,Erode,Over-Exploited,11,12,16,20,11,13
+47,Erode,Saline,0,0,0,0,0,0
+48,Erode,Total Number of Firka ,34,34,34,34,34,35
+49,Kallakurichi,Safe,0,0,0,6,10,10
+50,Kallakurichi,Semi-Critical,0,0,0,5,6,3
+51,Kallakurichi,Critical,0,0,0,6,4,6
+52,Kallakurichi,Over-Exploited,0,0,0,6,3,5
+53,Kallakurichi,Saline,0,0,0,0,0,0
+54,Kallakurichi,Total Number of Firka ,0,0,0,23,23,24
+55,Kancheepuram,Safe,35,39,37,15,16,16
+56,Kancheepuram,Semi-Critical,15,15,18,6,6,6
+57,Kancheepuram,Critical,5,8,3,1,1,1
+58,Kancheepuram,Over-Exploited,6,5,10,3,2,2
+59,Kancheepuram,Saline,0,0,0,0,0,0
+60,Kancheepuram,Total Number of Firka ,61,67,68,25,25,25
+61,Kanniyakumari,Safe,18,17,17,17,17,21
+62,Kanniyakumari,Semi-Critical,0,1,1,1,1,1
+63,Kanniyakumari,Critical,0,0,0,0,0,0
+64,Kanniyakumari,Over-Exploited,0,0,0,0,0,0
+65,Kanniyakumari,Saline,0,0,0,0,0,0
+66,Kanniyakumari,Total Number of Firka ,18,18,18,18,18,22
+67,Karur,Safe,4,5,3,2,4,4
+68,Karur,Semi-Critical,5,1,3,4,2,2
+69,Karur,Critical,1,3,0,0,0,2
+70,Karur,Over-Exploited,9,10,14,14,14,12
+71,Karur,Saline,0,0,0,0,0,0
+72,Karur,Total Number of Firka ,19,19,20,20,20,20
+73,Krishnagiri,Safe,6,8,6,9,10,9
+74,Krishnagiri,Semi-Critical,11,8,6,7,8,11
+75,Krishnagiri,Critical,0,1,3,1,1,1
+76,Krishnagiri,Over-Exploited,13,12,14,12,10,10
+77,Krishnagiri,Saline,0,0,0,0,0,0
+78,Krishnagiri,Total Number of Firka ,30,29,29,29,29,31
+79,Madurai,Safe,33,28,30,30,21,24
+80,Madurai,Semi-Critical,13,13,7,7,19,20
+81,Madurai,Critical,1,5,3,3,7,3
+82,Madurai,Over-Exploited,4,5,11,11,4,4
+83,Madurai,Saline,0,0,0,0,0,0
+84,Madurai,Total Number of Firka ,51,51,51,51,51,51
+85,Mayiladuthurai,Safe,0,0,0,0,0,1
+86,Mayiladuthurai,Semi-Critical,0,0,0,0,0,0
+87,Mayiladuthurai,Critical,0,0,0,0,0,0
+88,Mayiladuthurai,Over-Exploited,0,0,0,0,0,13
+89,Mayiladuthurai,Saline,0,0,0,0,0,1
+90,Mayiladuthurai,Total Number of Firka ,0,0,0,0,0,15
+91,Nagapattinam,Safe,1,2,1,1,1,0
+92,Nagapattinam,Semi-Critical,1,0,0,0,0,0
+93,Nagapattinam,Critical,2,1,0,0,0,0
+94,Nagapattinam,Over-Exploited,11,11,13,13,13,0
+95,Nagapattinam,Saline,16,17,17,17,17,16
+96,Nagapattinam,Total Number of Firka ,31,31,31,31,31,16
+97,Namakkal,Safe,4,3,3,3,5,4
+98,Namakkal,Semi-Critical,8,5,4,4,2,3
+99,Namakkal,Critical,0,2,1,1,2,2
+100,Namakkal,Over-Exploited,18,20,22,22,21,23
+101,Namakkal,Saline,0,0,0,0,0,0
+102,Namakkal,Total Number of Firka ,30,30,30,30,30,32
+103,Nilgiris,Safe,15,15,15,13,15,15
+104,Nilgiris,Semi-Critical,0,0,0,2,0,0
+105,Nilgiris,Critical,0,0,0,0,0,0
+106,Nilgiris,Over-Exploited,0,0,0,0,0,0
+107,Nilgiris,Saline,0,0,0,0,0,0
+108,Nilgiris,Total Number of Firka ,15,15,15,15,15,15
+109,Perambalur,Safe,2,2,3,3,3,3
+110,Perambalur,Semi-Critical,3,2,1,1,1,1
+111,Perambalur,Critical,0,0,0,0,0,0
+112,Perambalur,Over-Exploited,5,7,7,7,7,7
+113,Perambalur,Saline,0,0,0,0,0,0
+114,Perambalur,Total Number of Firka ,10,11,11,11,11,11
+115,Pudukkottai,Safe,38,36,30,32,36,26
+116,Pudukkottai,Semi-Critical,2,5,11,10,6,16
+117,Pudukkottai,Critical,1,0,1,0,0,0
+118,Pudukkottai,Over-Exploited,0,0,0,0,0,0
+119,Pudukkottai,Saline,3,3,3,3,3,3
+120,Pudukkottai,Total Number of Firka ,44,44,45,45,45,45
+121,Ramanathapuram,Safe,29,28,29,29,29,29
+122,Ramanathapuram,Semi-Critical,0,1,0,0,0,0
+123,Ramanathapuram,Critical,0,0,0,0,0,0
+124,Ramanathapuram,Over-Exploited,0,0,0,0,0,0
+125,Ramanathapuram,Saline,9,9,9,9,9,9
+126,Ramanathapuram,Total Number of Firka ,38,38,38,38,38,38
+127,Ranipet,Safe,0,0,0,1,3,3
+128,Ranipet,Semi-Critical,0,0,0,11,11,11
+129,Ranipet,Critical,0,0,0,2,0,0
+130,Ranipet,Over-Exploited,0,0,0,4,4,4
+131,Ranipet,Saline,0,0,0,0,0,0
+132,Ranipet,Total Number of Firka ,0,0,0,18,18,18
+133,Salem,Safe,7,6,7,6,5,5
+134,Salem,Semi-Critical,6,7,2,2,4,3
+135,Salem,Critical,0,2,0,2,3,2
+136,Salem,Over-Exploited,29,27,35,34,32,34
+137,Salem,Saline,0,0,0,0,0,0
+138,Salem,Total Number of Firka ,42,42,44,44,44,44
+139,Sivagangai,Safe,37,37,38,39,39,39
+140,Sivagangai,Semi-Critical,1,1,1,0,0,0
+141,Sivagangai,Critical,0,0,0,0,0,0
+142,Sivagangai,Over-Exploited,0,0,0,0,0,0
+143,Sivagangai,Saline,0,0,0,0,0,0
+144,Sivagangai,Total Number of Firka ,38,38,39,39,39,39
+145,Tenkasi,Safe,0,0,0,9,10,11
+146,Tenkasi,Semi-Critical,0,0,0,4,4,6
+147,Tenkasi,Critical,0,0,0,1,5,3
+148,Tenkasi,Over-Exploited,0,0,0,17,11,10
+149,Tenkasi,Saline,0,0,0,0,0,0
+150,Tenkasi,Total Number of Firka ,0,0,0,31,30,30
+151,Thanjavur,Safe,11,10,5,4,4,5
+152,Thanjavur,Semi-Critical,8,11,7,8,8,9
+153,Thanjavur,Critical,0,5,8,4,4,2
+154,Thanjavur,Over-Exploited,29,24,30,34,34,34
+155,Thanjavur,Saline,2,0,0,0,0,0
+156,Thanjavur,Total Number of Firka ,50,50,50,50,50,50
+157,Theni,Safe,3,7,6,5,6,8
+158,Theni,Semi-Critical,8,4,7,8,7,3
+159,Theni,Critical,1,2,2,2,2,2
+160,Theni,Over-Exploited,5,4,2,2,2,4
+161,Theni,Saline,0,0,0,0,0,0
+162,Theni,Total Number of Firka ,17,17,17,17,17,17
+163,Thiruchirappalli,Safe,17,16,16,17,20,21
+164,Thiruchirappalli,Semi-Critical,7,5,6,8,5,4
+165,Thiruchirappalli,Critical,1,7,3,1,1,0
+166,Thiruchirappalli,Over-Exploited,15,13,18,17,17,18
+167,Thiruchirappalli,Saline,0,0,0,0,0,0
+168,Thiruchirappalli,Total Number of Firka ,40,41,43,43,43,43
+169,Thirupathur,Safe,0,0,0,0,0,0
+170,Thirupathur,Semi-Critical,0,0,0,3,3,3
+171,Thirupathur,Critical,0,0,0,2,0,0
+172,Thirupathur,Over-Exploited,0,0,0,6,12,12
+173,Thirupathur,Saline,0,0,0,0,0,0
+174,Thirupathur,Total Number of Firka ,0,0,0,11,15,15
+175,Thiruvarur,Safe,10,10,9,9,9,11
+176,Thiruvarur,Semi-Critical,2,3,3,3,3,1
+177,Thiruvarur,Critical,2,1,1,1,1,0
+178,Thiruvarur,Over-Exploited,9,9,10,10,10,12
+179,Thiruvarur,Saline,4,4,4,4,4,4
+180,Thiruvarur,Total Number of Firka ,27,27,27,27,27,28
+181,Thoothukudi,Safe,32,33,36,35,35,35
+182,Thoothukudi,Semi-Critical,3,4,1,2,3,4
+183,Thoothukudi,Critical,1,1,1,1,2,1
+184,Thoothukudi,Over-Exploited,5,3,3,3,1,1
+185,Thoothukudi,Saline,0,0,0,0,0,0
+186,Thoothukudi,Total Number of Firka ,41,41,41,41,41,41
+187,Tirunelveli,Safe,33,30,29,20,22,23
+188,Tirunelveli,Semi-Critical,9,9,9,6,6,6
+189,Tirunelveli,Critical,3,6,3,1,1,0
+190,Tirunelveli,Over-Exploited,15,15,19,2,1,1
+191,Tirunelveli,Saline,0,0,0,0,0,0
+192,Tirunelveli,Total Number of Firka ,60,60,60,29,30,30
+193,Tiruppur,Safe,1,1,1,1,7,6
+194,Tiruppur,Semi-Critical,5,5,3,5,7,13
+195,Tiruppur,Critical,1,4,3,4,9,3
+196,Tiruppur,Over-Exploited,23,21,26,23,10,11
+197,Tiruppur,Saline,0,0,0,0,0,0
+198,Tiruppur,Total Number of Firka ,30,31,33,33,33,33
+199,Tiruvallur,Safe,20,19,20,20,24,30
+200,Tiruvallur,Semi-Critical,11,14,12,17,16,11
+201,Tiruvallur,Critical,2,8,5,2,4,4
+202,Tiruvallur,Over-Exploited,12,4,16,7,2,2
+203,Tiruvallur,Saline,1,1,1,1,1,1
+204,Tiruvallur,Total Number of Firka ,46,46,54,47,47,48
+205,Tiruvannamalai,Safe,12,4,0,0,12,17
+206,Tiruvannamalai,Semi-Critical,24,19,8,23,19,13
+207,Tiruvannamalai,Critical,8,16,7,6,8,8
+208,Tiruvannamalai,Over-Exploited,8,13,37,23,13,16
+209,Tiruvannamalai,Saline,0,0,0,0,0,0
+210,Tiruvannamalai,Total Number of Firka ,52,52,52,52,52,54
+211,Vellore,Safe,3,2,4,1,1,1
+212,Vellore,Semi-Critical,20,17,10,4,5,6
+213,Vellore,Critical,3,8,5,2,1,1
+214,Vellore,Over-Exploited,26,26,33,16,12,12
+215,Vellore,Saline,0,0,0,0,0,0
+216,Vellore,Total Number of Firka ,52,53,52,23,19,20
+217,Viluppuram,Safe,11,11,13,5,6,9
+218,Viluppuram,Semi-Critical,10,11,13,6,11,9
+219,Viluppuram,Critical,2,4,6,4,5,5
+220,Viluppuram,Over-Exploited,32,30,25,19,12,11
+221,Viluppuram,Saline,0,0,0,0,0,0
+222,Viluppuram,Total Number of Firka ,55,56,57,34,34,34
+223,Virudhunagar,Safe,15,16,19,19,22,22
+224,Virudhunagar,Semi-Critical,9,11,6,10,12,12
+225,Virudhunagar,Critical,7,4,6,5,1,1
+226,Virudhunagar,Over-Exploited,5,5,8,5,4,4
+227,Virudhunagar,Saline,0,0,0,0,0,0
+228,Virudhunagar,Total Number of Firka ,36,36,39,39,39,39
+229,TamilNadu,Safe,437,429,427,409,463,482
+230,TamilNadu,Semi-Critical,235,212,163,225,231,227
+231,TamilNadu,Critical,48,105,79,63,78,64
+232,TamilNadu,Over-Exploited,374,358,462,435,360,395
+233,TamilNadu,Saline,35,35,35,34,34,34
+234,TamilNadu,Total Number of Firka ,1129,1139,1166,1166,1166,1202
