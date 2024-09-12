@@ -110,19 +110,23 @@ if selected == "Status Check":
 
     csv = convert_df(df)
 
+    st.markdown(
+    """
+    <div style='text-align: left;'>
+        <span style='color: black; font-weight: bold; font-size: 28px'>Know About Your Firka Status</span>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
     cols=st.columns(2)
     with cols[0]:
       district = st.selectbox("District", df["District"].unique())
       filtered_df = df[df["District"] == district]
-      #division = st.selectbox("Division", filtered_df["Division"].unique())
-      #filtered_df1 = df[df["Division"] == division]
+      
     with cols[1]:
       firka = st.selectbox("Firka", filtered_df["Firka"].unique())
-      #taluk = st.selectbox("Taluk", filtered_df1["Taluk"].unique())
-      #filtered_df2 = df[df["Taluk"] == taluk]
-      #firka = st.selectbox("Firka", filtered_df2["Firka"].unique())
-      #Search for the firka
+      
       rslt_df = df.loc[df['Firka'] == firka]
       rslt_df = rslt_df.set_index('Firka')
     cols=st.columns(2)
@@ -137,6 +141,15 @@ if selected == "Status Check":
     rslt_df_status = rslt_df.loc[[firka], ['2011', '2013', '2017', '2020', '2022', '2023']]
     rslt_df_status=rslt_df_status.replace('NIL', np.NaN)
 
+    st.markdown(
+    """
+    <div style='text-align: left;'>
+        <span style='color: black; font-weight: bold; font-size: 18px'>Status for Firka</span>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+    
     cols=st.columns(6)
     with cols[0]:
       status=rslt_df.loc[[firka], ['2011']].values[0][0]
@@ -457,6 +470,14 @@ if selected == "Status Check":
     unsafe_allow_html=True
 )
 
+    st.markdown(
+    """
+    <div style='text-align: left;'>
+        <span style='color: black; font-weight: bold; font-size: 28px'>Know About Your District Groundwater Level Status</span>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
     matching_values = []
 
@@ -485,6 +506,60 @@ if selected == "Status Check":
     fig.add_hline(y=00)
     st.plotly_chart(fig)
 
+    df1 = pd.read_csv("cat.csv")
+
+    @st.cache_data
+    def convert_df1(df1):
+          return df1.to_csv(index=False).encode('utf-8')
+
+
+    csv = convert_df1(df1)
+
+    st.markdown(
+    """
+    <div style='text-align: left;'>
+        <span style='color: black; font-weight: bold; font-size: 28px'>Know About Your District Status</span>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+    cols=st.columns(1)
+    with cols[0]:
+
+      option1 = st.selectbox("Select District", df1["District"].unique())
+
+      option2 = df1['Category'].unique().tolist()
+      selected_option2 = st.selectbox('Select Category', option2, key='selectbox_from_column_content')
+
+      st.write('You selected:', option1, 'and', selected_option2)
+
+      district_selected = option1
+      category_selected = selected_option2
+
+      filtered_df1 = df1[(df1['District'] == district_selected) & (df1['Category'] == category_selected)]
+
+      long_df = filtered_df1.melt(id_vars=['District', 'Category'],
+                           value_vars=['2011', '2013','2017','2020', '2022', '2023'],
+                           var_name='Year',
+                           value_name='Values')
+      custom_color_map = {
+          'Safe': 'green',
+          'Semi-Critical': 'blue',
+          'Critical': 'orange',
+          'Over-Exploited': 'red',
+          'Saline': 'gray',
+          'Total Number of Firka ': 'purple'
+      }
+
+      mean_value = long_df['Values'].max()
+      dtick = round(mean_value * 0.2)
+
+      # Plotting the bar graph using Plotly Express
+      fig2 = px.bar(long_df, x='Year', y='Values', title=f'Status for District: {district}, Category: {category_selected}', color='Category',  color_discrete_map=custom_color_map).update_layout(
+      xaxis_title="Year", yaxis_title="Number of firkas", xaxis_dtick=1, yaxis=dict(dtick=dtick), showlegend=False)
+      fig2.add_hline(y=00)
+      st.plotly_chart(fig2)
 
 
 if selected == "Glance":
